@@ -10,4 +10,5 @@ It may be to decrease processing - power for simulations, style your game as con
 
 There are wild possibilities that can be done with this compared to other rendering modules of python. This module has ease of use, compatibility with most computers and is extremely efficient in its processing.
 
+apart from the fact... well its text.
 
