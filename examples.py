@@ -1,9 +1,9 @@
 from textify import Canvas
 
-canvas = Canvas()
+canvas = Canvas(10, 10, "#")
 
 # Rectangle
-canvas.rect(fillcharacter, xposition, yposition, width, height, outline_width=0, outline_character="+")
+canvas.rect("o", 1, 3, 4, 2, outline_width=0, outline_character="+")
 canvas.render()
 
 
@@ -19,3 +19,4 @@ canvas.render()
 # Add borders to the canvas: 
 
 canvas.addborders('x','*') # x - axis, y - axis
+canvas.render()
