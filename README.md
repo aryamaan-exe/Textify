@@ -25,7 +25,8 @@ Import the module by putting the python file in the same directory as your proje
 
 ```from textify import Canvas```
 
-Create a canvas object by doing the following. This will create your canvas as a grid of a character/symbol.
+Create a canvas object by doing the following. This will create your canvas as a grid of a character/symbol given in the 3rd arg.
+
 First 2 args stand for width and height respectively.
 
 ```canvas = Canvas(10,10,'#')```
