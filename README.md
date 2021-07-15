@@ -15,7 +15,7 @@ The only limit to this engine is imagination
 # How do I download this?
 
 Download through this command - 
-```git clone https://github.com/null-Exception1/Textify.git```
+`git clone https://github.com/null-Exception1/Textify.git`
 Or simply click on CODE on homepage, and click on DOWNLOAD ZIP
 
 No extra modules are required (advantage) so you should be up and running!
