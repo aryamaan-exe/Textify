@@ -46,3 +46,19 @@ You can see `examples.py` for more examples.
 
 **NOTE:** We recommend you do `os.system('cls')` to clear the console, or if you are rendering the canvas at a constant framerate we recommend you do `sys.stdout.write('\n'*50+canvas.render_val())`
 
+## Discord Bot Implementation
+
+This library is also available in the form of a Discord bot (@Textify#0494, ID 864771090593349632).
+
+### Running an instance of the Discord bot
+
+It is assumed that you have installed Python.  
+- Run `git clone https://github.com/aryamaan-exe/textify-bot.git`
+- Run `pip install discord.py`
+- Run `pip install dnspython` and `pip install pymongo`
+- Create a bot application on Discord ([how?](https://www.wikihow.com/Create-a-Bot-in-Discord#Creating-the-Bot-on-Discord) section 2)
+- Copy the token and paste it into `tokens.json` in the `bot` section.
+- Create a MongoDB cluster ([how?](https://docs.atlas.mongodb.com/tutorial/create-new-cluster/)) and paste the connection string into `tokens.json` in the `mongo` section.
+- Run `python main.py`.
+- In case of any errors, please open an issue on the [bot repo](https://github.com/aryamaan-exe/textify-bot).
+
