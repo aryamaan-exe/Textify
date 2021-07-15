@@ -12,5 +12,15 @@ There are wild possibilities that can be done with this compared to other render
 
 The only limit to this engine is imagination
 
-# How do I use this?
+# How do I download this?
+
+Download through this command - 
+```git clone https://github.com/null-Exception1/Textify.git```
+Or simply click on CODE on homepage, and click on DOWNLOAD ZIP
+
+No extra modules are required (advantage) so you should be up and running!
+
+# Use?
+
+Create a canvas object by doing the following
 
