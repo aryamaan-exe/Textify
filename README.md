@@ -21,6 +21,15 @@ Or simply click on CODE on homepage, and click on DOWNLOAD ZIP
 No extra modules are required (advantage) so you should be up and running!
 
 # Use?
+Import the module by putting the python file in the same directory as your project : 
 
-Create a canvas object by doing the following
+```from textify import Canvas```
+
+Create a canvas object by doing the following. This will create your canvas as a grid of a character/symbol.
+
+```canvas = Canvas(10,10,'#')```
+
+The entire grid can be accessed by `canvas.display` which return a 1D array consisting of the grid characters, But we don't need this.
+
+
 
