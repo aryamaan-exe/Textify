@@ -51,10 +51,11 @@ canvas.render()
 
 Display a 2d vector ascii image like this
 
-```image = [['#','O','#'],
-            ['/','|','\'],
-            ['#','|','#'],
-            ['/','#','\']]
+```
+image = [['#','O','#'],
+        ['/','|','\'],
+        ['#','|','#'],
+        ['/','#','\']]
 canvas.draw_image(x,y,image)
 canvas.render()
 ```
