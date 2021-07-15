@@ -15,11 +15,11 @@ class Canvas:
             Returns none.
         """
         display = self.display
-        print(self.xborder*self.width)
+        print(self.xborder*(self.width+2))
         for i in range(self.height):
             
             print(self.yborder + "".join(display[self.width*i:self.width*(i+1)]) + self.yborder)
-        print(self.xborder*self.width)
+        print(self.xborder*(self.width+2))
     def render_val(self):
         """
 
@@ -27,10 +27,10 @@ class Canvas:
 
         """
         display = ""
-        display += self.xborder*self.width + "\n"
+        display += self.xborder*(self.width + 2) + "\n"
         for i in range(self.height):
             display += self.yborder+"".join(self.display[self.width*i:self.width*(i+1)])+ self.yborder + "\n"
-        display += self.xborder*self.width
+        display += self.xborder*(self.width + 2) + "\n"
         return display
     def rect(self,background_character,y,x,width,height,line_width=0,line_width_character=" "):
         """
